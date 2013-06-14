@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block head %}
+<title>Silvi Blog</title>
+<style>
+  body p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+</style>
+{% endblock %}
+{% block body %}
+  <div class="container">
+        {% for post in posts %}
+          {{post.content | safe}}
+          <small>Posted by Joseph on {{post.date}} | <a href="post/{{post.slug}}">Permalink</a></small>
+          <hr />
+        {% endfor %}
+        <p>Page: 
+        {% for p in range(nr_pages) %}
+          <a href="/blog/page/{{p}}">
+            {% if page_id == p %}<strong>{% endif %}
+            {{p + 1}}
+            {% if page_id == p %}</strong>{% endif %}
+          </a>
+        {% endfor %}
+  </div>
+{% endblock %}
+{% block scripts %}
+{% endblock %}

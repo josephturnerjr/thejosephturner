@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block head %}
+<title>Silvi Blog | {{post.title}}</title>
+<style>
+  body p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+</style>
+{% endblock %}
+{% block body %}
+  <div class="container">
+        {{post.content | safe}}
+        <small>Posted by Joseph on {{post.date}}</small>
+  </div>
+{% endblock %}
+{% block scripts %}
+{% endblock %}
