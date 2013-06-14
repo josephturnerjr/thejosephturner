@@ -1,4 +1,4 @@
-from flask import (Flask, request, redirect, url_for,
+from flask import (Flask, Blueprint, request, redirect, url_for,
                    render_template, session, abort)
 
 import datetime
@@ -9,7 +9,7 @@ import os
 POST_DIR = "posts"
 app = Flask(__name__)
 app.config.from_object(__name__)
-
+blog_views = Blueprint('blog_views', __name__)
 
 def get_mod_date(fn):
     return datetime.datetime.fromtimestamp(os.stat(fn).st_mtime)
@@ -47,8 +47,8 @@ def get_nr_posts():
     return len(posts)
 
 
-@app.route('/')
-@app.route('/page/<int:page_id>')
+@blog_views.route('/')
+@blog_views.route('/page/<int:page_id>')
 def index(page_id=0):
     POSTS_PER_PAGE = 4
     posts = load_posts(POSTS_PER_PAGE, page_id * POSTS_PER_PAGE)
@@ -60,9 +60,11 @@ def index(page_id=0):
                            nr_pages=nr_pages, page_id=page_id)
 
 
-@app.route('/post/<post_slug>')
+@blog_views.route('/post/<post_slug>')
 def post(post_slug):
     post = load_post(post_slug)
     return render_template('blog_post.html', post=post)
+app.register_blueprint(blog_views, url_prefix='/blog')
+
 if __name__ == "__main__":
     app.run(debug=True)
