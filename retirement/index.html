@@ -1,0 +1,166 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Early Retirement is Simple</title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div class='container'>
+  <div role="main">
+    <div id="center">
+      <h1>Let's talk retirement.</h1>
+      <p>Retirement, wtf is that? Though it seems like retirement is a complicated affair, with 401(k)s and Roth IRAs and index funds and all sorts of crap like that, it turns out that only two things are really relevant to when you can retire:
+        <ul><li><strong>the percentage of take-home pay you save</strong> and</li><li><strong>your rate of return on your savings.</strong></li></ul></p>
+      <p>
+        Weird, right? To reiterate, and to make it completely clear: <strong>the amount of money you make has no impact on how quickly you can retire!</strong> Of course, with extremely low earnings rates, the maximum reasonable savings percentage will be necessarily quite a bit lower.
+      </p>
+      <p>
+        This chart shows years until retirement versus savings percentage for a number of rates of return (APY). Click for a larger version.
+      </p>
+      <p>
+      <a href="img/retirement.png"><img class='img-polaroid' src="img/retirement-small.png" /></a>
+      </p>
+      <p>
+        As you can see, if your savings rate is 0%, you can never retire regardless of the quality your investments. By the same token, if your savings rate is 100% you can retire right now. For each APY, there is an elbow below which each percentage point of savings drastically increases the time to retirement.
+      </p>
+      <div class='row'>
+      <div class='span4 offset1'>
+        <table class='table table-bordered'>
+          <thead>
+            <tr>
+              <th>APY</th><th>Savings % "elbow"</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1%</td><td>100.5%</td>
+            </tr>
+            <tr>
+              <td>2.5%</td><td>40.5%</td>
+            </tr>
+            <tr>
+              <td>5%</td><td>20.5%</td>
+            </tr>
+            <tr>
+              <td>7.5%</td><td>13.8%</td>
+            </tr>
+            <tr>
+              <td>10%</td><td>10.5%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+      <p>
+        It's important to note that for very low APY savings accounts, such as normal bank savings accounts, the savings percentage must be extremely high in order to ever have the chance to retire in your lifetime. For the 1% APY line in the graph above, you would need a savings rate above about 60% (!!!) in order to retire within 60 years. The good news is that there are extremely safe investment opportunities that yield significantly higher interest rates. Take advantage of them! An example would be S&P index funds which have averaged about 7% over their lifetime.
+      </p>
+      <h2>Calculate your time until retirement</h2>
+      <p>As mentioned above, only two variables are salient to your retirement time. Enter them below to see your own personal time until retirement (well, until retirement is possible anyway).</p>
+      <form class="form-horizontal">
+        <div class="control-group">
+          <label class="control-label" for="savings-pct">Percent saved:</label>
+          <div class="controls">
+            <input type="text" id="savings-pct" value="10">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="rate-of-return">Rate of return:</label>
+          <div class="controls">
+            <input type="text" id="rate-of-return" value="7">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <button id='calculate' class="btn">Calculate</button>
+          </div>
+        </div>
+      </form>    
+      <hr>
+      <div id="results"></div>
+    </div>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#calculate').click(function(){
+        var s = parseInt($('#savings-pct').val(), 10) / 100.0;
+        var R = parseInt($('#rate-of-return').val(), 10) / 100.0;
+        if(isNaN(s) || isNaN(R))
+          return false;
+        var r = R / 26.0;
+        var biweeks = Math.log(1.0/s) / Math.log(1+r);
+        console.log(biweeks, biweeks / 26);
+        var years = biweeks / 26;
+        if(isFinite(years)){
+          years = years.toFixed(1)
+          $("#results").html("<h2>You can retire in " + years + " years.</h2>");
+          $("#results").append('<p>Put in your biweekly take-home pay for a savings breakdown by paycheck.</p>\
+                                <form class="form-horizontal">\
+                                  <div class="control-group">\
+                                    <label class="control-label" for="take-home-pay">Take home pay:</label>\
+                                    <div class="controls">\
+                                      <input type="text" id="take-home-pay" placeholder="Your biweekly pay, after taxes">\
+                                    </div>\
+                                  </div>\
+                                  <div class="control-group">\
+                                    <div class="controls">\
+                                      <button id="calculate-savings" class="btn">Calculate savings</button>\
+                                    </div>\
+                                  </div>\
+                                </form>\
+                                <hr><div id="savings-table"></div>');  
+          $('#calculate-savings').click(function(){
+            var p = parseFloat($('#take-home-pay').val());
+            if(isNaN(p))
+              return false;
+            $("#savings-table").html("<p>With a savings rate of " + (100 * s).toFixed(1) +"%, your biweekly spending is $" + ((1 - s) * p).toFixed(2) + ". When your biweekly return is greater than this number, you can retire.</p>");
+            $("#savings-table").append("<table class='table'><thead><tr><th>Year</th><th>Paycheck</th><th>Total saved</th><th>Biweekly return</th></thead><tbody></tbody></table>");
+            var i;
+            var table = $("#savings-table tbody");
+            for(i = 1; i <= biweeks + 1; i++){
+              var savings = (s * p) * (1 - (Math.pow(1 + r, i))) / (1 - (1 + r));
+              var year = "";
+              if((i - 1) % 26 == 0)
+                year = "<td rowspan=26>" + ((i - 1) / 26 + 1) + "</td>";
+              table.append("<tr>"+year+"<td>" + i + "</td><td>$" + savings.toFixed(2) + "</td><td>$" + (savings * r).toFixed(2) + "</td></tr>");
+            }
+            var top = $("#savings-table").offset().top;
+            $('html,body').animate({scrollTop: top}, 1000);
+            return false;
+          });
+        }else{
+          $("#results").html("<h2>You can NEVER RETIRE.</h2>");
+          $("#results").append("<p>With no savings, you have no hope for retirement at any age!</p>");
+        }
+        var top = $("#results").offset().top;
+        $('html,body').animate({scrollTop: top}, 1000);
+        return false;
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20372070-1']);
+    _gaq.push(['_setDomainName', '.thejosephturner.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</body>
+</html>

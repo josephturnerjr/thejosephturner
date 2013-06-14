@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #555;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+h1{
+    margin: 0px;
+}
+#header{
+    margin: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    background: white;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    color: black;
+    box-shadow: 0px 5px #aaa;
+}
+#title{
+    border-bottom: 4px solid #FF3700;
+    padding-left: 20px;
+}
+#title p{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#content_body{
+}
+.body-centered{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: #333;
+    text-decoration: underline;
+}
+
+.invisible{
+    display: none;
+}
+.project{
+    width: 280px;
+    background: #fff;
+    position: relative;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 5px 5px #aaa;
+}
+img.github{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.project-head{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project p, pre{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.project-head img{
+    border: 4px groove #aaa;
+}
+
+.technology-list{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+    
