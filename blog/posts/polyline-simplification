@@ -18,7 +18,7 @@ So I cranked up some math rock, busted out the notebook, and dusted off the brai
     3. Else:
         1.  Let **o** = **m -** **s**.
         2.  Let **θ = arccos(o . p / (||o|| * ||p||))**.
-        3.  If **θ **&lt; TMIN:
+        3.  If **θ** &lt; TMIN:
             1.  Pop the last element from line_list.
             2.  Push **n** onto line_list.4.
         4. Else:
@@ -28,7 +28,7 @@ So I cranked up some math rock, busted out the notebook, and dusted off the brai
 
 At the end, line_list is the simplified list. Here is a diagram of the relevant variables:
 
-[![](http://thejosephturner.com/blog/wp-content/uploads/2012/04/line-simplify.png "line-simplify")](http://thejosephturner.com/blog/wp-content/uploads/2012/04/line-simplify.png)
+[![](/static/img/line-simplify.png "line-simplify")](/static/img/line-simplify.png)
 
 In normal words, the algorithms only include points that are close enough to the line established by the previous two points, assuming that the mouse has gone far enough away from the last point. The nice thing about this method relative to some more complex ones (e.g., least-squares fit to the original line) is that the algorithm only needs to hold the points of the resulting line and the latest point.
 

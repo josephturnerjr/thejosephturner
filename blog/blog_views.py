@@ -7,7 +7,7 @@ import os
 
 
 POST_DIR = "posts"
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 app.config.from_object(__name__)
 blog_views = Blueprint('blog_views', __name__)
 
