@@ -1,41 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% extends "layout.html" %}
+{% block head %}
     <title>
         The Joseph Turner's Website
     </title>
     <meta name="Description" content="Joseph Turner's personal website and idle-time playground" />
-    <meta name="Keywords" content="Joseph Turner" />
-    <meta name="Robots" content="all" />
-    <script type="text/javascript" src="/_JS/js/jquery-1.4.4.min.js"></script>
-    <script type="text/javascript" src="/_JS/jquery.masonry.min.js"></script>
-    <script type="text/javascript" src="fp.js"></script>
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-20372070-1']);
-      _gaq.push(['_setDomainName', '.thejosephturner.com']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-</head>
-<body>
-<div id="header">
-    <div id="title">
-        <div class="body-centered">
-            <h1>Joseph Turner</h1>
-        </div>
-    </div>
-</div>
+    <link rel="stylesheet" href="/static/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+{% endblock %}
+{% block body %}
 <div id="content_body" class="body-centered">
     <div class="project">
         <div class="project-head">
@@ -43,7 +16,7 @@
                 About Me
             </h1>
             <a href="/blog/post/about-me" title="About Me">
-                <img src="/_IMG/aboutme-small.png" width='240' height='201' />
+                <img src="/static/_IMG/aboutme-small.png" width='240' height='201' />
             </a>
         </div>
         <p>
@@ -59,11 +32,11 @@
                 My Blog
             </h1>
             <a href="/blog" title="Joseph Turner's Blog">
-                <img src="/_IMG/blog-small.png" width='240' height='240' />
+                <img src="/static/_IMG/blog-small.png" width='240' height='240' />
             </a>
         </div>
         <p>
-            Musings on programming and math, beer, and sometimes... life
+            Musings on programming, entrepreneurship, or whatever else I've been thinking about 
         </p>
         <p class="technology-list">
             Python + Flask + Markdown 
@@ -75,7 +48,7 @@
                 FatBatt
             </h1>
             <a href="http://fatbatt.com" title="FatBatt" style='text-align: center;'>
-                <img src="/_IMG/fatbatt-logo-240.png" width='240' height='240'/>
+                <img src="/static/_IMG/fatbatt-logo-240.png" width='240' height='240'/>
             </a>
         </div>
         <p>
@@ -91,7 +64,7 @@
                 Silvi
             </h1>
             <a href="http://getsilvi.com" title="Silvi">
-                <img src="/_IMG/silvi-logo-big.png" width='220' height='121' style='padding: 60px 10px;'/>
+                <img src="/static/_IMG/silvi-logo-big.png" width='220' height='121' style='padding: 60px 10px;'/>
             </a>
         </div>
         <p>
@@ -108,7 +81,7 @@
                 Granola
             </h1>
             <a href="http://grano.la" title="Granola">
-                <img src="/_IMG/granola-small.png" width='240' height='240' />
+                <img src="/static/_IMG/granola-small.png" width='240' height='240' />
             </a>
         </div>
         <p>
@@ -120,14 +93,14 @@
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/Cheating-With-Friends" title="Cheating with Friends on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
                 Cheating with Friends
             </h1>
             <a href="http://thejosephturner.com/cheatingwithfriends" title="Cheating with Friends">
-                <img src="/_IMG/cwf.png" width='240' height='240' />
+                <img src="/static/_IMG/cwf.png" width='240' height='240' />
             </a>
         </div>
         <p>
@@ -141,7 +114,7 @@
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/termbar" title="TermBar on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
@@ -167,7 +140,7 @@ Negative Value !####################|                    ! -30
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/crindy" title="crindy on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
@@ -183,14 +156,14 @@ Negative Value !####################|                    ! -30
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/mandelbrot.js" title="ScaleFree (Friendstellation) on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
                mandelbrot.js
             </h1>
             <a href="/mandelbrot" title="mandelbrot.js">
-                <img src="/_IMG/mandelbrot.jpg" width='240' height='240' />
+                <img src="/static/_IMG/mandelbrot.jpg" width='240' height='240' />
             </a>
         </div>
         <p>
@@ -202,14 +175,14 @@ Negative Value !####################|                    ! -30
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/simpleline" title="simpleline on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
                 simpleline 
             </h1>
             <a href="/simpleline" title="simpleline">
-                <img src="/_IMG/simple.png" width='240' height='190' />
+                <img src="/static/_IMG/simple.png" width='240' height='190' />
             </a>
         </div>
         <p>
@@ -220,17 +193,12 @@ Negative Value !####################|                    ! -30
         </p>
     </div>
     <div class="project">
-<!--
-        <a href="http://github.com/josephturner/scalefree" title="ScaleFree (Friendstellation) on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
-        </a>
--->
         <div class="project-head">
             <h1>
                 Pro!(de)file
             </h1>
             <a href="/prodefile" title="Pro!(de)file">
-                <img src="/_IMG/prodefile.jpg" width='240' height='240' />
+                <img src="/static/_IMG/prodefile.jpg" width='240' height='240' />
             </a>
         </div>
         <p>
@@ -242,7 +210,7 @@ Negative Value !####################|                    ! -30
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/boost-python-tutorial" title="Boost Python Tutorial on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
@@ -265,7 +233,7 @@ Negative Value !####################|                    ! -30
     </div>
     <div class="project">
         <a href="http://github.com/josephturnerjr/granola-wp" title="granola-wp on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
@@ -281,7 +249,7 @@ Negative Value !####################|                    ! -30
     </div>
     <div class="project">
         <a href="https://github.com/josephturnerjr/urllib2.VerifiedHTTPS" title="urllib2.VerifiedHTTPS on Github">
-            <img class='github' src="/_IMG/ForkMe_Blk.png" />
+            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
         </a>
         <div class="project-head">
             <h1>
@@ -295,24 +263,10 @@ Negative Value !####################|                    ! -30
             Python
         </p>
     </div>
-<!--
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                Inlet Electronics
-            </h1>
-            <a href="/scalefree" title="ScaleFree (Friendstellation)">
-                <img src="/_IMG/scalefree.png" width='240' height='240' />
-            </a>
-        </div>
-        <p>
-            Looking for FCC Marine Inspections in South Carolina, North Carolina, or Georgia? Let Inlet Electronics take care of you.
-        </p>
-        <p class="technology-list">
-            Ye Olde Fashioned FCC Stylings
-        </p>
     </div>
--->
-</div>
-</body>
-</html>
+{% endblock %}
+{% block scripts %}
+    <script type="text/javascript" src="/static/_JS/jquery.masonry.min.js"></script>
+    <script type="text/javascript" src="/static/_JS/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="/static/fp.js"></script>
+{% endblock %}
