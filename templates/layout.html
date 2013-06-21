@@ -13,11 +13,11 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" rel="stylesheet">
         <script src="{{url_for('static', filename='js/vendor/modernizr-2.6.1-respond-1.1.0.min.js')}}"></script>
         <style>
-.navbar-inner{
+            .navbar-inner{
               border: none;
               background-image: none;
               min-height: 80px;
-}
+            }
             .navbar-static-top{
               margin-bottom: 30px;
               box-shadow: 0px 5px #aaa;
@@ -47,9 +47,6 @@
             .container{
               max-width: 960px;
             }
-            .container{
-              max-width: 640px;
-            }
             p, li{
               font-size: 18px;
               line-height: 28px;
@@ -58,29 +55,28 @@
               font-size: 16px;
               line-height: 24px;
             }
+            #header{
+                background: white;
+                box-shadow: 0px 5px #aaa;
+                margin-bottom: 20px;
+            }
+            #header a:link, #header a:visited, #header a:hover, #header a:active {
+                color: #333;
+                text-decoration: none;
+            }
 
-#header{
-    background: white;
-    box-shadow: 0px 5px #aaa;
-    margin-bottom: 20px;
-}
-#header a:link, #header a:visited, #header a:hover, #header a:active {
-    color: #333;
-    text-decoration: none;
-}
+            #title h1{
+                margin: 0;
+                line-height: 120px;
+            }
 
-#title h1{
-    margin: 0;
-    line-height: 120px;
-}
-
-#content_body{
-}
-#header .body-centered{
-    width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-}
+            #content_body{
+            }
+            #header .body-centered{
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         </style>
         {% block head %}{% endblock %}
     </head>

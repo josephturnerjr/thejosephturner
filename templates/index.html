@@ -11,9 +11,12 @@
         height: 280px;
         width: 280px;
         text-align: center;
-        color: white;
         float: left;
         margin: 20px;
+        position: relative;
+      }
+      .p0{
+        background: #fff;
       }
       .p1{
         background: #ccc;
@@ -30,27 +33,43 @@
       .p5{
         background: #000;
       }
-      .project a:link, .project a:visited, .project a:hover, .project a:active {
+      .light a:link, .light a:visited, .light a:hover, .light a:active {
           color: white;
           text-decoration: none;
       }
-      .project-name h1, .project-name h2, .project-name h3{
-        line-height: 280px;
+      .dark a:link, .dark a:visited, .dark a:hover, .dark a:active {
+          color: #333;
+          text-decoration: none;
+      }
+      .project-name{
+        position: absolute;
+        display: table;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+      }
+      .project-name a{
+        display: table-cell;
+        text-align: center;
         margin: 0;
+        vertical-align: middle;
       }
       .container{
         max-width: 960px;
       }
+      .holder{
+        padding-top: 0px;
+      }
     </style>
 {% endblock %}
 {% block body %}
-<div class='clearfix'>
+<div class='holder clearfix p1'>
 <div class="container">
-  <div class='project-row'>
-    <div class="project p1">
+    <div class="project p0 dark">
       <div class="project-img">
         <a href="/blog/post/about-me" title="About Me">
-            <img src="/static/_IMG/aboutme-small.png" width='240' height='201' />
+            <img src="/static/_IMG/aboutme-small.png" width='280' height='280' />
         </a>
       </div>
       <div class='project-name hidden'>
@@ -61,7 +80,7 @@
         </a>
       </div>
     </div>
-    <div class="project p2">
+    <div class="project p3 light">
       <div class="project-img hidden">
         <a href="/blog" title="Joseph Turner's Blog">
             <img src="/static/_IMG/blog-small.png" width='240' height='240' />
@@ -75,13 +94,27 @@
         </a>
       </div>
     </div>
-    <div class="project p3">
+    <div class="project p2 light">
       <div class="project-img">
-        <a href="http://fatbatt.com" title="FatBatt" style='text-align: center;'>
-            <img src="/static/_IMG/fatbatt-logo-240.png" width='240' height='240'/>
+        <a href="http://github.com/josephturnerjr" title="Joseph Turner's Github">
+          <i style='font-size: 280px;' class='icon-github icon-4x'></i>
         </a>
       </div>
       <div class='project-name hidden'>
+        <a href="http://github.com/josephturnerjr" title="Joseph Turner's Github">
+        <h1>
+            Projects<br/>(full list)
+        </h1>
+        </a>
+      </div>
+    </div>
+    <div class="project p3 light">
+      <div class="project-img hidden">
+        <a href="http://fatbatt.com" title="FatBatt">
+            <img src="/static/_IMG/fatbatt-logo-240.png" width='240' height='240' style='padding: 20px 0;'/>
+        </a>
+      </div>
+      <div class='project-name'>
         <a href="http://fatbatt.com" title="FatBatt" style='text-align: center;'>
         <h1>
             FatBatt
@@ -89,26 +122,10 @@
         </a>
       </div>
     </div>
-  </div>
-  <div class='project-row'>
-    <div class="project p5">
-      <div class="project-img hidden">
-            <a href="http://grano.la" title="Granola">
-                <img src="/static/_IMG/granola-small.png" width='240' height='240' />
-        </a>
-      </div>
-      <div class='project-name'>
-            <a href="http://grano.la" title="Granola">
-        <h1>
-                Granola
-        </h1>
-        </a>
-      </div>
-    </div>
-    <div class="project p4">
+    <div class="project p0 dark">
       <div class="project-img">
             <a href="http://getsilvi.com" title="Silvi">
-                <img src="/static/_IMG/silvi-logo-big.png" width='220' height='121' style='padding: 60px 10px;'/>
+                <img src="/static/_IMG/silvi-logo-big.png" width='220' height='121' style='padding: 85px 10px;'/>
         </a>
       </div>
       <div class='project-name hidden'>
@@ -119,7 +136,35 @@
         </a>
       </div>
     </div>
-    <div class="project p1">
+    <div class="project p2 light">
+      <div class="project-img hidden">
+            <a href="http://grano.la" title="Granola">
+                <img src="/static/_IMG/granola-small.png" width='280' height='280' />
+        </a>
+      </div>
+      <div class='project-name'>
+            <a href="http://grano.la" title="Granola">
+        <h1>
+                Granola
+        </h1>
+        </a>
+      </div>
+    </div>
+    <div class="project p5 light">
+      <div class="project-img">
+            <a href="/mandelbrot" title="mandelbrot.js">
+                <img src="/static/_IMG/mandelbrot.jpg" width='280' height='280' />
+        </a>
+      </div>
+      <div class='project-name hidden'>
+            <a href="/mandelbrot" title="mandelbrot.js">
+        <h1>
+          mandlebrot.js
+        </h1>
+        </a>
+      </div>
+    </div>
+    <div class="project p0 dark">
       <div class="project-img hidden">
             <a href="http://thejosephturner.com/cheatingwithfriends" title="Cheating with Friends">
                 <img src="/static/_IMG/cwf.png" width='240' height='240' />
@@ -127,206 +172,28 @@
       </div>
       <div class='project-name'>
             <a href="http://thejosephturner.com/cheatingwithfriends" title="Cheating with Friends">
-        <h3>
+        <h1>
                 Cheating with Friends
-        </h3>
+        </h1>
         </a>
       </div>
     </div>
-  </div>
-</div>
-</div>
-<!--
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                Granola
-            </h1>
-            <a href="http://grano.la" title="Granola">
-                <img src="/static/_IMG/granola-small.png" width='240' height='240' />
-            </a>
-        </div>
-        <p>
-            Granola intelligently reduces the power consumption of PCs, laptops, and servers
-        </p>
-        <p class="technology-list">
-            C++ + Python
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/Cheating-With-Friends" title="Cheating with Friends on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
-        </a>
-        <div class="project-head">
-            <h1>
-                Cheating with Friends
-            </h1>
-            <a href="http://thejosephturner.com/cheatingwithfriends" title="Cheating with Friends">
-                <img src="/static/_IMG/cwf.png" width='240' height='240' />
-            </a>
-        </div>
-        <p>
-            Polyglot Hanging with Friends solvers 
-        </p>
-        <p class="technology-list">
-            Python<br />
-            Node.js + coffeescript<br />
-            jQuery + coffeescript + HTML5 Boilerplate
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/termbar" title="TermBar on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
-        </a>
-        <div class="project-head">
-            <h1>
-                TermBar
-            </h1>
-        </div>
-        <p><pre style='font-size: 0.5em;'>
-                       Draw Ascii Charts with TermBar!
-                ____________________|____________________
-         Value !                    |######              ! 10
- Another Value !                    |#############       ! 20
-Negative Value !####################|                    ! -30
- Pipe data in! !                    |####################! 30
-                --------------------|--------------------
-              -30                                       30
-        </pre></p>
-        <p>
-            Draw Ascii Charts with Termbar!
-        </p>
-        <p class="technology-list">
-            Python
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/crindy" title="crindy on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
-        </a>
-        <div class="project-head">
-            <h1>
-                crindy
-            </h1>
-        </div>
-        <p>
-            Dead-simple timer based eventloop programming Python
-        </p>
-        <p class="technology-list">
-            Python
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/mandelbrot.js" title="ScaleFree (Friendstellation) on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
-        </a>
-        <div class="project-head">
-            <h1>
-               mandelbrot.js
-            </h1>
-            <a href="/mandelbrot" title="mandelbrot.js">
-                <img src="/static/_IMG/mandelbrot.jpg" width='240' height='240' />
-            </a>
-        </div>
-        <p>
-            Visualize the Mandelbrot in-browser with zoom
-        </p>
-        <p class="technology-list">
-            Javascript + HTML5 Canvas + pixel manipulation
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/simpleline" title="simpleline on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
-        </a>
-        <div class="project-head">
-            <h1>
-                simpleline 
-            </h1>
+    <div class="project p3 light">
+      <div class="project-img">
             <a href="/simpleline" title="simpleline">
-                <img src="/static/_IMG/simple.png" width='240' height='190' />
-            </a>
-        </div>
-        <p>
-            Polyline simplification for HTML5 canvas
-        </p>
-        <p class="technology-list">
-            Coffeescript + HTML5 Canvas
-        </p>
-    </div>
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                Pro!(de)file
-            </h1>
-            <a href="/prodefile" title="Pro!(de)file">
-                <img src="/static/_IMG/prodefile.jpg" width='240' height='240' />
-            </a>
-        </div>
-        <p>
-            Crop, create, and upload Facebook profile image banners
-        </p>
-        <p class="technology-list">
-            Javascript + Facebook Graph API + PHP + GD
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/boost-python-tutorial" title="Boost Python Tutorial on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
+                <img src="/static/_IMG/simple.png" width='280' height='280' />
         </a>
-        <div class="project-head">
-            <h1>
-                Boost::Python Embedding Tutorial
-            </h1>
-        </div>
-        <p>
-            Ongoing tutorial on embedding Python in C++ applications with boost::python
-        </p>
-        <p>
-            <a href="/blog/post/embedding-python-in-c-applications-with-boostpython-introduction">Introduction</a>, 
-            <a href="/blog/post/embedding-python-in-c-applications-with-boostpython-part-1">Part 1</a>, 
-            <a href="/blog/post/embedding-python-in-c-applications-with-boostpython-part-2">Part 2</a>, 
-            <a href="/blog/post/embedding-python-in-c-applications-with-boostpython-part-3">Part 3</a>, 
-            <a href="/blog/post/embedding-python-in-c-applications-with-boostpython-part-4">Part 4</a>
-        </p>
-        <p class="technology-list">
-            C++ + Python + Boost::Python
-        </p>
-    </div>
-    <div class="project">
-        <a href="http://github.com/josephturnerjr/granola-wp" title="granola-wp on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
+      </div>
+      <div class='project-name hidden'>
+            <a href="/simpleline" title="simpleline">
+        <h1>
+          simpleline.js
+        </h1>
         </a>
-        <div class="project-head">
-            <h1>
-                granola-wp
-            </h1>
-        </div>
-        <p>
-            Display your <a href="http://grano.la/community/granola_share.php">Granola Share</a> data as a Wordpress sidebar widget
-        </p>
-        <p class="technology-list">
-            PHP + jQuery
-        </p>
+      </div>
     </div>
-    <div class="project">
-        <a href="https://github.com/josephturnerjr/urllib2.VerifiedHTTPS" title="urllib2.VerifiedHTTPS on Github">
-            <img class='github' src="/static/_IMG/ForkMe_Blk.png" />
-        </a>
-        <div class="project-head">
-            <h1>
-                Verified HTTPS via urllib2
-            </h1>
-        </div>
-        <p>
-            Do certificate- and domain-verified HTTPS communication with urllib2 <a href="http://thejosephturner.com/blog/2011/03/19/https-certificate-verification-in-python-with-urllib2/">(read more here)</a>
-        </p>
-        <p class="technology-list">
-            Python
-        </p>
-    </div>
-    </div>
--->
+</div>
+</div>
 {% endblock %}
 {% block scripts %}
     <script type="text/javascript" src="/static/_JS/jquery.masonry.min.js"></script>
