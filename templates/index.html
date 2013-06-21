@@ -6,75 +6,137 @@
     <meta name="Description" content="Joseph Turner's personal website and idle-time playground" />
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/static/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+    <style type='text/css'>
+      .project{
+        height: 280px;
+        width: 280px;
+        text-align: center;
+        color: white;
+        float: left;
+        margin: 20px;
+      }
+      .p1{
+        background: #ccc;
+      }
+      .p2{
+        background: #333;
+      }
+      .p3{
+        background: #666;
+      }
+      .p4{
+        background: #999;
+      }
+      .p5{
+        background: #000;
+      }
+      .project a:link, .project a:visited, .project a:hover, .project a:active {
+          color: white;
+          text-decoration: none;
+      }
+      .project-name h1, .project-name h2, .project-name h3{
+        line-height: 280px;
+        margin: 0;
+      }
+      .container{
+        max-width: 960px;
+      }
+    </style>
 {% endblock %}
 {% block body %}
-<div id="content_body" class="body-centered">
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                About Me
-            </h1>
-            <a href="/blog/post/about-me" title="About Me">
-                <img src="/static/_IMG/aboutme-small.png" width='240' height='201' />
-            </a>
-        </div>
-        <p>
-            My outlook and professional interests
-        </p>
-        <p class="technology-list">
-            In lieu of a CV
-        </p>
+<div class='clearfix'>
+<div class="container">
+  <div class='project-row'>
+    <div class="project p1">
+      <div class="project-img">
+        <a href="/blog/post/about-me" title="About Me">
+            <img src="/static/_IMG/aboutme-small.png" width='240' height='201' />
+        </a>
+      </div>
+      <div class='project-name hidden'>
+        <a href="/blog/post/about-me" title="About Me">
+        <h1>
+            About Me
+        </h1>
+        </a>
+      </div>
     </div>
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                My Blog
-            </h1>
-            <a href="/blog" title="Joseph Turner's Blog">
-                <img src="/static/_IMG/blog-small.png" width='240' height='240' />
-            </a>
-        </div>
-        <p>
-            Musings on programming, entrepreneurship, or whatever else I've been thinking about 
-        </p>
-        <p class="technology-list">
-            Python + Flask + Markdown 
-        </p>
+    <div class="project p2">
+      <div class="project-img hidden">
+        <a href="/blog" title="Joseph Turner's Blog">
+            <img src="/static/_IMG/blog-small.png" width='240' height='240' />
+        </a>
+      </div>
+      <div class='project-name'>
+        <a href="/blog" title="Joseph Turner's Blog">
+        <h1>
+            Blog
+        </h1>
+        </a>
+      </div>
     </div>
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                FatBatt
-            </h1>
-            <a href="http://fatbatt.com" title="FatBatt" style='text-align: center;'>
-                <img src="/static/_IMG/fatbatt-logo-240.png" width='240' height='240'/>
-            </a>
-        </div>
-        <p>
-            FatBatt greatly improves power management choice architecture for laptops
-        </p>
-        <p class="technology-list">
-            Python
-        </p>
+    <div class="project p3">
+      <div class="project-img">
+        <a href="http://fatbatt.com" title="FatBatt" style='text-align: center;'>
+            <img src="/static/_IMG/fatbatt-logo-240.png" width='240' height='240'/>
+        </a>
+      </div>
+      <div class='project-name hidden'>
+        <a href="http://fatbatt.com" title="FatBatt" style='text-align: center;'>
+        <h1>
+            FatBatt
+        </h1>
+        </a>
+      </div>
     </div>
-    <div class="project">
-        <div class="project-head">
-            <h1>
-                Silvi
-            </h1>
+  </div>
+  <div class='project-row'>
+    <div class="project p5">
+      <div class="project-img hidden">
+            <a href="http://grano.la" title="Granola">
+                <img src="/static/_IMG/granola-small.png" width='240' height='240' />
+        </a>
+      </div>
+      <div class='project-name'>
+            <a href="http://grano.la" title="Granola">
+        <h1>
+                Granola
+        </h1>
+        </a>
+      </div>
+    </div>
+    <div class="project p4">
+      <div class="project-img">
             <a href="http://getsilvi.com" title="Silvi">
                 <img src="/static/_IMG/silvi-logo-big.png" width='220' height='121' style='padding: 60px 10px;'/>
-            </a>
-        </div>
-        <p>
-            Organize your information into trees for ease of discovery and effortless collaboration.
-            <a href="http://getsilvi.com/turnerj9/Documentation-and-Info">Learn more.</a>
-        </p>
-        <p class="technology-list">
-            Python + flask + coffeescript
-        </p>
+        </a>
+      </div>
+      <div class='project-name hidden'>
+            <a href="http://getsilvi.com" title="Silvi">
+        <h1>
+                Silvi
+        </h1>
+        </a>
+      </div>
     </div>
+    <div class="project p1">
+      <div class="project-img hidden">
+            <a href="http://thejosephturner.com/cheatingwithfriends" title="Cheating with Friends">
+                <img src="/static/_IMG/cwf.png" width='240' height='240' />
+        </a>
+      </div>
+      <div class='project-name'>
+            <a href="http://thejosephturner.com/cheatingwithfriends" title="Cheating with Friends">
+        <h3>
+                Cheating with Friends
+        </h3>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--
     <div class="project">
         <div class="project-head">
             <h1>
@@ -264,9 +326,20 @@ Negative Value !####################|                    ! -30
         </p>
     </div>
     </div>
+-->
 {% endblock %}
 {% block scripts %}
     <script type="text/javascript" src="/static/_JS/jquery.masonry.min.js"></script>
     <script type="text/javascript" src="/static/_JS/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="/static/fp.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.project').mouseenter(function(e){
+          $(this).find('.project-img').toggleClass('hidden');
+          $(this).find('.project-name').toggleClass('hidden');
+        }).mouseleave(function(){
+          $(this).find('.project-img').toggleClass('hidden');
+          $(this).find('.project-name').toggleClass('hidden');
+        });
+      });
+    </script>
 {% endblock %}
