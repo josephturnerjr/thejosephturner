@@ -22,6 +22,7 @@ header h1 {
 
 
 header{
+  margin-top 20px;
 }
 
 #cheat_explain, #cheatmain .span4{
@@ -30,7 +31,7 @@ header{
   background-color: #fcfbf3;
 }
 h2, p, #cheatmain input{
-  margin: 10px;
+  margin: 20px 10px;
 }
 
 .cheat_letters {
