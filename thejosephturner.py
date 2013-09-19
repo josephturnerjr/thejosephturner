@@ -21,6 +21,10 @@ def mb():
 def sl():
     return render_template('simpleline.html')
 
+@app.route('/resume/')
+def resume():
+    return render_template('resume.html')
+
 @app.route('/cheatingwithfriends/')
 def cwf():
     return render_template('cheating.html')
