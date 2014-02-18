@@ -1,5 +1,5 @@
-from flask import (Flask, Blueprint, request, redirect, url_for,
-                   render_template, session, abort)
+from flask import (Flask,
+                   render_template)
 from blog_views import blog_views
 
 app = Flask(__name__)
@@ -21,8 +21,16 @@ def mb():
 def sl():
     return render_template('simpleline.html')
 
+
+@app.route('/resume/')
+def resume():
+    return render_template('resume.html')
+
+
 @app.route('/cheatingwithfriends/')
 def cwf():
     return render_template('cheating.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
