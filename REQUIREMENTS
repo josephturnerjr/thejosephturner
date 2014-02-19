@@ -1,2 +1,0 @@
-flask
--e git://github.com/josephturnerjr/python-markdown2.git#egg=markdown2
