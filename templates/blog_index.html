@@ -12,6 +12,7 @@
   <div class="container">
         {% for post in posts %}
           {{post.content | safe}}
+          <p class='muted'>Did you like this post? Follow me on <a href="https://twitter.com/josephturnip" title="Follow me on Twitter, buddy!">Twitter</a>.</p>
           <small>Posted by Joseph on {{post.date}} | <a href="post/{{post.slug}}">Permalink</a></small>
           <hr />
         {% endfor %}
