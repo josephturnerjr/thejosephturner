@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $('.project').mouseenter(function(e){
+    $(this).find('.project-img').toggleClass('hidden');
+    $(this).find('.project-name').toggleClass('hidden');
+  }).mouseleave(function(){
+    $(this).find('.project-img').toggleClass('hidden');
+    $(this).find('.project-name').toggleClass('hidden');
+  });
+});

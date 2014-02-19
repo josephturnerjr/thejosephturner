@@ -1,0 +1,36 @@
+---
+layout: layout
+title: Line Simplificationizer
+description: Simple visualizaton and implementation of an also-simple line simplification algorithm.
+keywords: 
+stylesheets: 
+scripts:
+  - /static/js/simpleline.js
+---
+<style>
+  #line-canvas {
+    background-color: #7893AD;
+  }
+  .container h1{
+    margin: 40px 0;
+  }
+</style>
+<div class='container clearfix'>
+  <h1>Line Simplificationizer</h1>
+  <div class='row-fluid'>
+    <div class='span7'>
+      <canvas id='line-canvas' width="480" height="360"></canvas>
+    </div>
+    <div id="controls span5">
+      Angle sensitivity (TMIN / pi)<br/><input id='theta' type='range' min=1 max=128 /><span id='asen'></span><br />
+      Min. segment length (LMIN)<br/><input id='len' type='range' min=1 max=128 /><span id='slen'></span><br />
+      <br />
+      <input id='clear-lines' type='submit' value='Clear' /><br /><br />
+      <p>
+      <a href="http://thejosephturner.com/blog/post/polyline-simplification">Learn more</a> or 
+      <a href="https://github.com/josephturnerjr/simpleline">fork this project</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
