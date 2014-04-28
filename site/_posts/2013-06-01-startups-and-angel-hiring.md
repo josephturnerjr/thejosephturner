@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Startups and Angel Hiring
+title:  "Startups and Angel Hiring"
 date:   2013-06-01
 ---
 
@@ -11,4 +11,4 @@ His initial applications were for jobs at larger companies, and often companies 
 
 The reasoning for their decision is simple: it's a matter of risk. My suggestion was to look into jobs with startups because **startups, like angel investors, are in a position to take a risk for someone unproven who might be incredible.** Because they don't have much to lose and potentially quite a lot to gain, startups are almost uniquely able to take the leap on the unproven but brilliant PhD, or the 18-year-old woman with the incredible Github account, or the reclusive genius who insists on working from his cabin in Montana. While they might not always work out, taking these "angel hiring" risks potentially offer startups the elusive large multiple.
 
-What does that mean for you? If you run a startup, be willing take risks in hiring (but be prepared to fail fast!). If you're looking for a job, and particularly if you're unproven, consider looking at startups. Of course, as a startup employee __you__ are taking a bit of a risk too, though, again, it's worth it. As for Chris, he just found his data scientist job at [Red Owl Analytics](http://www.redowlanalytics.com/), where he'll no doubt be building some seriously next-level software.
+What does that mean for you? If you run a startup, be willing take risks in hiring (but be prepared to fail fast!). If you're looking for a job, and particularly if you're unproven, consider looking at startups. Of course, as a startup employee __you__ are taking a bit of a risk too, though, again, it's worth it. As for Chris, he just found his data scientist job at [RedOwl Analytics](http://www.redowlanalytics.com/), where he'll no doubt be building some seriously next-level software.
