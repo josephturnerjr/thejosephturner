@@ -1,5 +1,7 @@
 name: Website of The Joseph Turner
 markdown: redcarpet
+redcarpet:
+    extensions: ["strikethrough"]
 pygments: true
 url: http://thejosephturner.com/
 markdown: redcarpet
