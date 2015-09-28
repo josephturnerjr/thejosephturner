@@ -55,9 +55,7 @@ that he'd just fly us around some. We crossed the street to the
 Georgetown airport, and Dee met us there with the helicopter, a [Robinson
 R44](https://en.wikipedia.org/wiki/Robinson_R44).
 
-<br />
 <img src='/static/img/heli/airfield.jpg'>
-<br />
 
 We loaded up in the helicopter and took off. The ride was much smoother
 than I had imagined, both during takeoff and overall. We flew up over
@@ -65,11 +63,8 @@ the airfield and then into Winyah Bay, an extensive estuary where
 several rivers meet the Atlantic. Dee pointed out old rice paddies, now
 used mainly for hunting or overgrown entirely. 
 
-<br />
 <img src='/static/img/heli/bay.jpg'>
-<br />
 <img src='/static/img/heli/paddy.jpg'>
-<br />
 
 We followed the bay out to the ocean then cut south, following the
 coastline. We saw a nature preserve that is an important sea turtle
@@ -79,22 +74,16 @@ and his brother flew a helicopter there and killed several of the
 invasive hogs. It's unclear to me whether they were shooting *from* the
 helicopter or not, but pretty cool.
 
-<br />
 <img src='/static/img/heli/birds.jpg'>
-<br />
 <img src='/static/img/heli/beach.jpg'>
-<br />
 
 After a short while, we cut back west over the Muddy Bay area and the
 estuaries. We flew all the way down to
 [McClellanville](https://en.wikipedia.org/wiki/McClellanville%2C_South_Carolina), marked by the
 lighthouse and cut up into the mouth of the inlet there.
 
-<br />
 <img src='/static/img/heli/muddy1.jpg'>
-<br />
 <img src='/static/img/heli/mcclellanville.jpg'>
-<br />
 
 From McClellanville, we turned around and headed back across the
 estuaries, up to Winyah bay and then north along the ocean, through
@@ -102,13 +91,9 @@ Debordieu and up into my hometown, Pawleys Island. We flew over my
 parents house, over Dee's house, over my childhood house, and over the
 river before heading back to the airstrip
 
-<br />
 <img src='/static/img/heli/muddy2.jpg'>
-<br />
 <img src='/static/img/heli/pawleys.jpg'>
-<br />
 <img src='/static/img/heli/pawleys2.jpg'>
-<br />
 
 All told, we were airborne for well over an hour and flew close to 100
 miles. It was an amazing experience, and if you get the opportunity to

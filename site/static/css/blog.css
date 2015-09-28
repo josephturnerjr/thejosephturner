@@ -30,3 +30,7 @@
 .post .author{
   margin: 30px 0;
 }
+.post img{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
