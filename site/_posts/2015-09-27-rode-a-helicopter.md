@@ -99,5 +99,6 @@ All told, we were airborne for well over an hour and flew close to 100
 miles. It was an amazing experience, and if you get the opportunity to
 do something similar, jump at it. Thanks to my mother and to Dee for
 giving me the opportunity, and thanks to Cassie for enduring an hour of
-motion sickness to experience it with me.
+motion sickness to experience it with me. This ride marked my second on
+my list of 35 things, only 33 to go!
 
