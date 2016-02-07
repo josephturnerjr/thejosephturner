@@ -7,7 +7,7 @@ title: 35 by 35 (living list)
 
 This is the living list of the 35 things I want to do by age 35. I
 [created the list](/blog/post/35-by-35/) at the age of 30 in 2014. I have currently
-completed **2 of 35** items.
+completed **3 of 35** items.
 
   1. Surf in the Pacific
   2. Live abroad
@@ -43,4 +43,4 @@ completed **2 of 35** items.
   32. Start another startup
   33. Close the [Heavy Grips](http://www.heavygrips.com/) 250lb gripper
   34. Be part of a successful startup exit
-  35. Go one full calendar month without buying anything
+  35. **FINISHED 2/1/2016 (age 31)** Go one full calendar month without buying anything
