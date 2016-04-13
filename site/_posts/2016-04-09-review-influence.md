@@ -200,9 +200,105 @@ easier to ward off.
 
 #### Examples and results.
 
+  * American POWs during the Korean War were convinced to write anti-American or pro-Communist
+    essays and do all sorts of things based on some sophisticated
+commitment mechanisms employed by the Chinese.
+  * Horse race bettors are more confident in the chance of their horse
+    winning after placing a bet than before.
+  * A bystander was much more likely to stop a thief if asked earlier if
+    they would watch the belongings.
+  * Toy manufacturers create artificial demand for specific toys around Christmas,
+    then limit availiability until after the holidays. Promises to
+children result in sales later.
+  * Getting people to abstractly commit to charitability
+    on the phone earlier results in much better results if asked
+to volunteer later.
+  * A commitment to driver safety resulted in a large number of people
+    agreeing to put up a billboard in their front lawn.
+  * Testimonial contests encourage all who apply to believe in the
+    product they are writing about.
+  * Writing down an estimate results in a much stronger commitment to
+    it.
+  * Hazing rituals inspire individuals to have very strong commitment to
+    the cause for which they are hazed (effort results in stronger
+commitment).
+  * Children will better internalize lessons that aren't accompanied by
+    a threat (or, presumably, a reward). This may be different for
+different children.
+  * *Lowball* Offer a car for a low price, then wait a while, the
+    retract the offer. People will build up their own reasons for
+agreeing to the purchase in the first place.
+  * Performing an interview that encourages the person to respond in
+    ways favorable to the overall goal - for example, an attractive
+woman interviewing men about their social habits in order to sell
+Zagat's or something - then asking for the sale.
 
 
 ### Chapter 4: Social Proof
+
+The principle of social proof states that when we are confused about
+the best course of action, we take our cue from the actions of those
+around us. Like many of the other weapons, it serves a valuable purpose
+but becomes an issue when we respond to it automatically, regardless of
+other factors, such as whether the social proof is genuine or false.
+Often, the "social proof" we are actually getting is the result of a
+group of people *all* looking for social proof and trying to play it
+cool. This leads to "pluralistic ignorance," in which a whole group
+reads the *wrong* social cue. This is likely the cause of bystander
+inaction. The two key drivers for social proof are uncertainty, which
+motivates the examination of social cues in the first place, and
+similarity, in which we prefer to take our cues from those most similar
+to ourselves.
+
+In order to best protect ourselves from false social proof is to be
+sensitive to when the cues we are receiving are incorrect. This can
+occur because the social data has been made up - such as in the case of
+a "man on the street" testimonial for a product - or in the case where
+social proof is being interpreted incorrectly in a recursive way by a
+growing group - as in the case of bystander inaction. 
+
+#### Examples and results.
+
+  * Canned laugh tracks are attempting to make you laugh via social
+    proof.
+  * Bartenders throwing a couple bucks in the tip jar at the beginning
+    of the night.
+  * Advertising and marketing techniques claiming things are 'fastest
+    growing' or the like and  man-in-the-street interviews and
+testimonials are meant to engage the principle of social proof.
+  * Children who see other children playing with dogs are way less
+    likely to be scared of dogs, even if they see the other children in
+a video.
+  * *Pluralistic ignorance* When a group of people are all attempting to
+    read social cues but end up reading everyone else playing it cool
+while they try to read the crowd.
+  * Bystander inaction is an example of pluralistic ignorance: everyone
+    is trying to evaluate the situation, but mistakenly reads the
+others' calmness as indicating that the situation is fine.
+  * Three-person groups are less likely to report a likely fire than
+    individuals, particularly if the group contained people instructed
+to ignore the smoke.
+  * Uncertainty triggers the need for social proof: when someone is
+    clearly hurt, people almost always help even if it is dangerous;
+however if it is unclear that there is an emergency, far fewer people
+help when there are other people not helping.
+  * To get help in a crowd, single someone out, tell them you need help
+    and ideally tell them what help you need.
+  * Similarly: school anti-smoking efforts are much more effective if
+    lead by peers.
+  * *Werther effect* Public evidence of a suicide, such as reporting in
+    papers or the news, results in other people committing suicide. The
+imitation suicides are often committed by people similar to the original
+victim. This may also be true of homocides.
+  * Cult suicides are often rooted in social proof. The People's Temple
+    suicides were thought to be largely a result of  Jim Jones moving
+the cult to Guyana, making the only similar people around the cultists
+themselves.
+  * Claques are groups of opera-goers that are paid to applaud - canned
+    applause for live shows.
+  * Traffic jams are sometimes caused by two drivers signalling to get
+    over, which drivers behind interpret as social proof of a lane
+blockage further up.
 
 
 
