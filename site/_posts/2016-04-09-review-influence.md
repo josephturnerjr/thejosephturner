@@ -3,16 +3,18 @@ layout: post
 title: "A Review of Influence: The psychology of persuasion"
 ---
 
-*This post is largely inspired by a post by a friend of mine that
+*This post is largely inspired by [a post by a friend of
+mine](http://fiddlemath.net/2013/08/07/dont-shoot-the-dog/) that
 inspired me to start writing reviews and summaries of (nonfiction) books
 I read.*
 
-I just finished reading *Influence: The psychology of persuasion* by
+I just finished reading [*Influence: The Psychology of
+Persuasion*](http://amzn.to/23XAYS9) by
 Robert Cialdini. I picked up the book after seeing it mentioned several times
 on Hacker News and Reddit, the irony of which didn't dawn on me until I had
 finished the book. The genre of accessible books on results in
 experimental psychology has been a favorite of mine since reading one of
-my favorite books, *Thinking, Fast and Slow*, and this book did not
+my favorite books, [*Thinking, Fast and Slow*](http://amzn.to/1SRuEn7), and this book did not
 disappoint.
 
 The subject matter of *Influence* is the "weapons of influence" used by
@@ -41,7 +43,7 @@ are used at different layers of the processes. Future work?
 
 <hr />
 
-## Influence: The psychology of persuasion
+## Influence: The Psychology of Persuasion
 
 ### Chapter 1: Weapons of Influence
 
@@ -300,11 +302,193 @@ themselves.
     over, which drivers behind interpret as social proof of a lane
 blockage further up.
 
-
-
 ### Chapter 5: Liking
+
+Unsurprisingly, we are more likely to comply with the requests of people
+we like. This liking can take the form of friendship or another existing
+relationship, or it may be as
+simple as one of a number of factors that cause liking quickly and
+reliably without the development of a deeper relationship. These factors
+include physical attractiveness (how good looking is the person?),
+similarity (in what ways is the person like us?), compliments (how much
+does the person seem to like us?), contact (how familiar are we with the
+person or the request?), cooperation (how much help have we given this
+person?), and conditioning / association (what other things is this person
+or request like? what are they associated with and how do I feel
+about those things?).
+
+Compliance professionals leverage our close relationships to gain
+compliance via association with our friends and family. They also
+leverage the factors above by making us like *them* in order to tap into
+those feelings. In order to resist the automatic effect of these
+feelings of liking, we need to notice when we are liking someone more
+than we would expect, or when that liking is being inspired in the
+context of a compliance request. The stronger the feeling, the more wary
+we should be. Once we notice the feeling, we must try to distance our
+liking from the compliance request in order to make the best possible
+decision.
+
+#### Examples and results.
+
+  * Tupperware parties and their ilk leverage our friendships to sell
+    products.
+  * *Halo effects* When one positive characteristic of a person or thing dominates
+    the perception of that person or thing.
+  * Example of attractiveness: attractive candidates got more than twice
+    as many votes as unattractive ones, but the voters didn't think the
+appearance of the candidates mattered to them.
+  * Attractive criminals receive lighter sentences than ugly ones.
+  * Example of similarity: Studies show that we are more likely to help people who dress like
+    us. Another: salespeople find similarities with us in our background
+or interests.
+  * Typically people prefer a photo of themselves that is flipped
+    horizontally because it matches their image of themselves - the one
+they see in the mirror every morning.
+  * In contrast to the contact theory, school desegregations often
+    result in negative race relationships because of the nature of the
+environment. However, forming cooperative groups in which students of
+different races work together has promising results (cooperation vs.
+contact).
+  * Good cop / bad cop works on several principles: contrast and liking.
+  * Example of association: people often personally dislike the
+    weatherman for delivering bad weather news. Another: (presumably
+straight) men who see car ads with good looking women thing the car is
+faster, better looking, and better designed.
+  * People perceive things as more favorable while they are eating.
+  * Sports fanaticism can be seen as a case of trying to associate
+    onesself with the city or team's success; likewise, sports fans
+distance themselves from recently unsuccessful teams.
+
 ### Chapter 6: Authority
+
+We all have a ingrained feeling that we have a duty to authority. This
+feeling is very powerful, and applies to situations where, as outsiders,
+we would never think it would, such as inflicting pain to others.
+Furthermore, this feeling of duty is very robust, and persists even when
+obedience clearly means doing things we find distasteful. Interestingly,
+the actual authority is less important than the *perceived* authority.
+In other words, we respond to people in doctors coats, not to the MD.
+Titles, dress, and other trappings of authority (expensive cars,
+uniforms, etc.) all play into this sense of authority.
+
+Resisting this effect is complicated, as, like many of the weapons of
+influence, it often happens without us noticing, and we are often
+unaware of how powerful its force is. Additionally, it often provides
+the correct information - doctors, lawyers, and the like often have
+guidance that is better than our own. The trick is to first carefully evaluate
+when we are dealing with real authority. If the authority is false, we
+can react accordingly. If it is real, we need to evaluate how likely it
+is that the authority is dealing with us truthfully. We can use other
+information and our own intuition to make this evaluation.
+
+#### Examples and results.
+
+  * *Milgrim experiments* Under a wide variety of conditions, people
+    were willing to inflict pain on other people when prompted by an
+authority figure.
+  * Brian Wilson laid on railroad tracks to protest shipment of weapons
+    to Nicaragua; the soldiers running the train ran over him.
+  * Trained nurses will often follow the directions of a doctor, even if it's
+    on the phone and the request flies in the face of their training.
+  * Sanka advertisements use an actor who portrayed a doctor to extol
+    the benefits of decaf coffee.
+  * This that are important are perceived as being larger; the reverse
+    also holds true.
+  * People on the street are more likely to comply with an odd request
+    if the requester is dressed in a guard uniform.
+  * People are less likely to honk at bad drivers in nice cars.
+
 ### Chapter 7: Scarcity
+
+The perceived value of an opportunity is inversely proportional to its
+availability. In general, loss is more motivating than gain; for each
+person, the multiple is different, resulting in a spectrum of
+risk-oriented behavior. Both first-order (how rare is X?) and second-order
+(is X becoming rarer?) scarcity affects our perception. Compliance
+professionals can artificially limit availability or create the
+perception of limited availability to gain our compliance.
+Alternatively, they can create deadlines for an opportunity in order to
+take advantage of our scarcity response.
+
+The theory of psychological reactance posits that the loss (or impending
+loss) of our freedoms increases our desire for those freedoms and
+associated goods and services. This may be the source of the "terrible
+twos" in which toddlers can't seem to be satisfied: any change in their
+state results in some perceived loss of freedom. This also may be the
+cause of hoarding in response to limits imposed on ownership of an
+object (e.g., incandescent bulbs fairly recently). This type of hoarding
+also extends to censorship - the limiting of free access to information
+- and to judges' instructions to disregard certain evidence presented.
+  The combination of this information scarcity with opportunity scarcity
+is a powerful compliance tactic: let the mark know that the information
+about the scarcity of the opportunity is itself limited, insider
+information.
+
+Evidence suggests that combined first- and second-order scarcity
+produces a stronger response than either alone. Specifically, things
+that are newly scarce are perceived as being more desirable than things
+that have been scarce for some time. Another condition that heightens a
+feeling of scarcity is when the scarcity is caused by an observable
+demand. In other words, when we see the demand that is causing the
+scarcity, we desire the opportunity more.
+
+To escape our scarcity response, we must first identify the increase 
+of desire caused by scarcity. When we find ourselves in that situation,
+we need to consciously distance ourselves from the desire to *possess*
+the item and evaluate the *intrinsic* value of the item instead.
+
+Because of the short-term effects of scarcity, it seems like it is most
+applicable in the 'close' phase of a transaction, after the initial
+interest but while the item is still being evaluated.
+
+#### Examples and results.
+
+  * The desire to answer a phone call when someone is physically with
+    you is the scarcity principle at work.
+  * Collectibles are often valued on their scarcity; arguably the whole
+    joy of collection is in possessing scarce items.
+  * "Limited number" and "limited time offer" are both compliance
+    tactics utilizing scarcity.
+  * *Psychological reactance* We react to the loss of behavioral freedoms by
+    desiring to perform the limited behaviors.
+  * Toddlers prefer toys that are blocked by an obstacle.
+  * Romeo and Juliet is an example of scarcity in effect - the parental
+    direction to end their affair strengthened their desire for it.
+  * After limiting a certain kind of detergent in Florida, residents
+    hoarded it. Additionally, they rated it as better than other
+detergents.
+  * Hearing that a speech proposing a certain topic would be banned,
+    more students supported the topic itself.
+  * Young people seeing an age-restricted book desired it more and
+    thought they would like it more than the non-age-restricted version.
+  * A UChicago Law School study found that jurors awarded more to a
+    woman injured by a careless driving defendant if the defendant had insurance -
+    and yet more if they were told to disregard that he had insurance.
+  * A study had participants rate cookies under several conditions;
+    scarcer conditions produced better ratings in this order (least to
+best average rating):
+    * Ten cookies in the jar
+    * Two cookies in the jar
+    * Ten cookies in the jar, but then eight were removed in front of
+      the participant, saying the experimenter had made a mistake
+    * Ten cookies in the jar, but then eight were removed in front of
+      the participant, saying that the other participants needed them
+  * Riots often result from degrading conditions, not necessarily bad
+    ones - race riots, Gorbachev's coup, etc.
+  * Bringing in a second buyer - real or not - often motivates the sale
+    of a scarce resource (homes, appliances, cars, etc.)
+
 ### Epilogue: Instant Influence
 
-
+A common theme in all the weapons of influence is that we often make
+decisions based on a very limited subset of the information we have.
+Unfortunately, our modern lives all but require us to do this to
+function at a normal level. All signs indicate that this frantic pace is
+*increasing* rather than decreasing, which means we need to be ever more
+reliant on these shortcuts. Unfortunately, these shortcuts can be
+exploited by people playing outside of the rules of safe evaluation. In
+this case, we should actively counter-attack: don't buy products
+leveraging these weapons in an unfair way; boycott television that uses
+canned laughter; don't vote for politicians that exploit us. We need our
+shortcuts to survive, and we need to out and ultimately stop those who
+would exploit them.
