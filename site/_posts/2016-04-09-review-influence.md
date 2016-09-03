@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Review of Influence: The psychology of persuasion"
+title: "A Review of Influence: The Psychology of Persuasion"
 ---
 
 *This post is largely inspired by [a post by a friend of
