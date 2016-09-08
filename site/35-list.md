@@ -7,7 +7,7 @@ title: 35 by 35 (living list)
 
 This is the living list of the 35 things I want to do by age 35. I
 [created the list](/blog/post/35-by-35/) at the age of 30 in 2014. I have currently
-completed **4 of 35** items.
+completed **5 of 35** items.
 
   1. Surf in the Pacific
   2. Live abroad
@@ -39,11 +39,10 @@ completed **4 of 35** items.
   26. Learn to sail; sail on a long trip
   27. Get a fully tailored suit
   28. Play a full game of Diplomacy in person
-  34. Be part of a successful startup exit
   31. **FINISHED 9/7/2016 (age 32)** ~~Finish a whole NYT Sunday crossword in a single sitting~~
+  34. **FINISHED 4/22/2016 (age 31)** ~~Be part of a successful startup exit~~
   35. **FINISHED 2/1/2016 (age 31)** ~~Go one full calendar month without buying anything~~
   24. **FINISHED 7/6/2015 (age 30)** ~~Ride in a helicopter~~
   20. **FINISHED 7/5/2015 (age 30)** ~~Complete a beer mile~~
 
-<!--[comment]: <>  (34. **FINISHED 4/22/2016 (age 31)** ~~Be part of a successful startup exit~~)-->
 
