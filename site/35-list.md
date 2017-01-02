@@ -45,13 +45,9 @@ completed **5 of 35** items.
   24. **FINISHED 7/6/2015 (age 30)** ~~Ride in a helicopter~~
   20. **FINISHED 7/5/2015 (age 30)** ~~Complete a beer mile~~
 
-
 ## Time left...
 
 <iframe
-src="http://free.timeanddate.com/countdown/i5ht5sai/n179/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw320/szh135/iso2019-08-07T00:00:00"
-allowTransparency="true" frameborder="1" width="320"
-height="135"></iframe>
-
-
-
+src="http://free.timeanddate.com/countdown/i5hw2dl9/n881/cf13/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pcfff/tc66c/fs100/szw320/szh135/iso2020-08-07T00:00:00/bas2/bat1/pa8"
+allowTransparency="true" frameborder="0" width="107"
+height="96"></iframe>
