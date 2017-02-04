@@ -37,7 +37,7 @@ completed **5 of 35** items.
   15. Kill, dress, clean, and eat an animal
   9. Cook a whole pig
   33. Close the [Heavy Grips](http://www.heavygrips.com/) 250lb gripper
-  6. Boulder V8 outdoors
+  6. **FINISHED 2/4/2017 (age 32) ~~Boulder V8 outdoors~~
   14. **FINISHED 12/7/2016 (age 32)** ~~Finish the [AFI Top 100](http://www.afi.com/100years/movies10.aspx)~~
   31. **FINISHED 9/7/2016 (age 32)** ~~Finish a whole NYT Sunday crossword in a single sitting~~
   34. **FINISHED 4/22/2016 (age 31)** ~~Be part of a successful startup exit~~
