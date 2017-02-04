@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Build your network with greedy search"
-date:   2017-01-29
+title:  "Climb Hard Boulders with Root Cause Analysis"
+date:   2017-02-04
 ---
 
 I'm very happy to announce that today, Feb. 4, 2017, I crossed another
-item off my [35 by 35 list](/35-list.html) by sending my first outdoor
+item off my [35 by 35 list](/35-list.html) (and [yearly
+goals](/blog/post/2016-roundup/)) by sending my first outdoor
 V8-grade boulder problem, *Right Exit to Fontainezoo*, alternatively
 called [W Goes to
 Fontainzoo](https://www.mountainproject.com/v/w-goes-to-fontainzoo/110262654).
@@ -17,16 +18,16 @@ climbing. Since I first attempted it, I've worked on my climbing roughly
 Ultimately, I succeeded on this problem ("solved" it, if you will) with
 a reductionist approach quite similar to the root cause analysis of
 software failures I've done: in the event of a failure, ask why until
-you arrive a problem you can address directly. Start at the beginning of the climb, try your hardest,
+you arrive an issue you can address directly. Start at the beginning of the climb, try your hardest,
 fall off. Why did you fail? Because my foot slipped. Why? Because my center of gravity was too far to the right. Why?
 Because I was letting my core sag. Pick yourself up, try again,
 conscious of keeping your core tight.
 
 I performed that process for
 almost every move of the climb, which was two grades harder than my
-previous hardest ascent when I started. By reducing the climb to its
-most fundamental, actionable improvements, I was able to make progress,
-despite feeling as though the end result was out of reach. Even today, a
+previous hardest ascent when I started. By reducing the climb to 
+a series of fundamental, actionable improvements, I was able to make progress,
+despite initially feeling as though the end result was out of reach. Even today, a
 year later and much stronger, I subtly adjusted my footwork and my angle
 of attack on holds. And today, all the pieces came together, and it was
 beautiful.
