@@ -9,7 +9,7 @@ POSTS_PATH = os.path.join("site", "_posts")
 HEADING = """---
 layout: post
 title: "%s"
-date: "%s"
+date: %s
 ---
 """
 FILENAME = "%s-%s.md"
