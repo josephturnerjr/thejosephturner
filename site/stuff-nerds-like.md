@@ -94,7 +94,7 @@ and things.
       * Alternative fuels
   * Virtual reality/augmented reality
   * Computing platforms
-      * Unikernels
+      * [Unikernels](nerdstuff/unikernels.html)
       * Containers
       * PaaS
   * Machine learning
