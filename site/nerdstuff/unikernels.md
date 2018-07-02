@@ -36,10 +36,14 @@ implemented as a library that can be linked with the application itself.
 Some library approaches, like OSv, can run native Linux compiled
 binaries. These seem to be the most flexible and painless.
 
+Unikraft seems to be an approach that straddles the Library OS and Rump
+Kernel approaches.
+
 #### Examples
 
   * [OSv](http://osv.io/) (Linux ELF)
   * [IncludeOS](http://www.includeos.org/) (C++)
+  * [Unikraft](https://xenproject.org/linux-foundation/80-developers/207-unikraft.html)
 
 ### Rump kernels
 Rump kernels represent a modular approach to kernel design. When
