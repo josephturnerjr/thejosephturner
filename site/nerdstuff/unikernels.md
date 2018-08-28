@@ -68,3 +68,5 @@ require.
   * [Galois](https://galois.com/) - Implementers of HalVM
   * [DeferPanic](https://deferpanic.com/) - Commercializing unikernels
     and a platform
+  * [IncludeOs](http://www.includeos.com/) has now organized into a
+    company and is marketing a solution
