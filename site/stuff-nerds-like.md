@@ -1,3 +1,7 @@
+---
+layout: page
+title: Things That I Think Are Interesting
+---
 # Things that I think are interesting
 
 [Marc Andreessen](http://blog.pmarca.com/), in the

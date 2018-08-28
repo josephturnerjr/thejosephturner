@@ -1,3 +1,8 @@
+---
+layout: page
+title: Unikernels
+---
+
 # Unikernels
 
 Unikernels are an idea I've found interesting since seeing a talk by
