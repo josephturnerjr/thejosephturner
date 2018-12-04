@@ -1,3 +1,7 @@
+---
+layout: page
+title: Things That I Think Are Interesting
+---
 # Things that I think are interesting
 
 [Marc Andreessen](http://blog.pmarca.com/), in the
@@ -94,7 +98,7 @@ and things.
       * Alternative fuels
   * Virtual reality/augmented reality
   * Computing platforms
-      * Unikernels
+      * [Unikernels](nerdstuff/unikernels.html)
       * Containers
       * PaaS
   * Machine learning
