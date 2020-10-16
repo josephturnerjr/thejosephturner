@@ -1,24 +1,26 @@
 ---
 layout: page
-title: 35 by 35 (living list)
+title: 35 by ~35~ 40 (living list)
 ---
 
-# 35 by 35
+# 35 by ~35~ 40
 
-This is the living list of the 35 things I want to do by age 35. I
+This is the living list of the 35 things I want to do by age ~35~ 40. I
 [created the list](/blog/post/35-by-35/) at the age of 30 in 2014. I have currently
-completed **7 of 35** items.
+completed **9 of 35** items.
+
+UPDATE: I turned 36 in August of 2020, so I didn't make it as far as I'd
+have liked. That being said, I'm going to keep pushing - maybe I'll make
+it by 40!
 
   4. Automate all of my income
-  18. Run a sub-20:00 5k
-  10. Read all of Terry Pratchett
+  18. Row a sub-7:00 2k
   5. Speak basic conversational Spanish
   15. Kill, dress, clean, and eat an animal
   25. Eat at a 3 Michelin star restaurant
   1. Surf in the Pacific
   2. Live abroad
   3. See the Aurora (either one)
-  32. Start another startup
   7. Boulder V9 outdoors
   30. Climb a big wall and sleep on a portaledge
   22. Build something big, something that helps people
@@ -37,6 +39,8 @@ completed **7 of 35** items.
   33. Close the [Heavy Grips](http://www.heavygrips.com/) 250lb gripper
   23. Go to Cuba
   13. Finish the [Time book list](http://entertainment.time.com/2005/10/16/all-time-100-novels/)
+  10. **FINISHED 8/15/2019 (age 34)** Read all of Terry Pratchett
+  32. **[FINISHED](https://siegescape.com) 2/1/2019 (age 34)** Start another startup
   6. **FINISHED 2/4/2017 (age 32)** ~~Boulder V8 outdoors~~
   14. **FINISHED 12/7/2016 (age 32)** ~~Finish the [AFI Top 100](http://www.afi.com/100years/movies10.aspx)~~
   31. **FINISHED 9/7/2016 (age 32)** ~~Finish a whole NYT Sunday crossword in a single sitting~~
@@ -44,10 +48,3 @@ completed **7 of 35** items.
   35. **FINISHED 2/1/2016 (age 31)** ~~Go one full calendar month without buying anything~~
   24. **FINISHED 7/6/2015 (age 30)** ~~Ride in a helicopter~~
   20. **FINISHED 7/5/2015 (age 30)** ~~Complete a beer mile~~
-
-## Time left...
-
-<iframe
-src="https://free.timeanddate.com/countdown/i5hw2dl9/n881/cf13/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pcfff/tc66c/fs100/szw320/szh135/iso2020-08-07T00:00:00/bas2/bat1/pa8"
-allowTransparency="true" frameborder="0" width="107"
-height="96"></iframe>
