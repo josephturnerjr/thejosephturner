@@ -34,11 +34,11 @@ it by 40!
   21. Learn to serve a tennis ball
   11. Build a beautiful piece of furniture
   16. Play music for money
-  19. Brew an excellent beer
   26. Learn to sail; sail on a long trip
   33. Close the [Heavy Grips](http://www.heavygrips.com/) 250lb gripper
   23. Go to Cuba
   13. Finish the [Time book list](http://entertainment.time.com/2005/10/16/all-time-100-novels/)
+  19. **FINISHED 11/13/2020 (age 36)** Brew an excellent beer
   10. **FINISHED 8/15/2019 (age 34)** Read all of Terry Pratchett
   32. **[FINISHED](https://siegescape.com) 2/1/2019 (age 34)** Start another startup
   6. **FINISHED 2/4/2017 (age 32)** ~~Boulder V8 outdoors~~
