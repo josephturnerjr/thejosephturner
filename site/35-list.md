@@ -7,7 +7,7 @@ title: 35 by ~35~ 40 (living list)
 
 This is the living list of the 35 things I want to do by age ~35~ 40. I
 [created the list](/blog/post/35-by-35/) at the age of 30 in 2014. I have currently
-completed **9 of 35** items.
+completed **10 of 35** items.
 
 UPDATE: I turned 36 in August of 2020, so I didn't make it as far as I'd
 have liked. That being said, I'm going to keep pushing - maybe I'll make
