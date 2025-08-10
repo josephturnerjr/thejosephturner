@@ -3,7 +3,7 @@ layout: page
 title: 35 by ~35~ ~40~ 45 (living list)
 ---
 
-# 35 by ~35~ 40
+# 35 by ~~35~~ ~~40~~ 45
 
 This is the living list of the 35 things I want to do by age ~35~ 40. I
 [created the list](/blog/post/35-by-35/) at the age of 30 in 2014. I have currently
@@ -38,9 +38,9 @@ it by 40!
   33. Close the [Heavy Grips](http://www.heavygrips.com/) 250lb gripper
   23. Go to Cuba
   13. Finish the [Time book list](http://entertainment.time.com/2005/10/16/all-time-100-novels/)
-  19. **FINISHED 11/13/2020 (age 36)** Brew an excellent beer
-  10. **FINISHED 8/15/2019 (age 34)** Read all of Terry Pratchett
-  32. **[FINISHED](https://siegescape.com) 2/1/2019 (age 34)** Start another startup
+  19. **FINISHED 11/13/2020 (age 36)** ~~Brew an excellent beer~~
+  10. **FINISHED 8/15/2019 (age 34)** ~~Read all of Terry Pratchett~~
+  32. **[FINISHED](https://siegescape.com) 2/1/2019 (age 34)** ~~Start another startup~~
   6. **FINISHED 2/4/2017 (age 32)** ~~Boulder V8 outdoors~~
   14. **FINISHED 12/7/2016 (age 32)** ~~Finish the [AFI Top 100](http://www.afi.com/100years/movies10.aspx)~~
   31. **FINISHED 9/7/2016 (age 32)** ~~Finish a whole NYT Sunday crossword in a single sitting~~

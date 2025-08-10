@@ -34,9 +34,10 @@ plugins:
 
 pygments: true
 #TODO FIX THESE
-#paginate: 5
-#paginate_path: "blog/page:num"
-#permalink: /blog/post/:title
+paginate: 5
+paginate_path: "blog/page:num"
+permalink: /blog/post/:title
+
 #markdown: redcarpet
 #redcarpet:
 #    extensions: ["strikethrough"]
