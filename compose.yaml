@@ -1,3 +1,11 @@
 services:
-    thejosephturner.com:
-        build: .
+  thejosephturner_com:
+    build: .
+    networks: 
+      - docklinode
+
+
+networks:
+  docklinode:
+    name: docklinode
+    external: true
