@@ -1,3 +1,5 @@
+name: thejosephturner_com
+
 services:
   thejosephturner_com:
     build: .
