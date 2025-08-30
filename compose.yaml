@@ -3,6 +3,7 @@ name: thejosephturner_com
 services:
   thejosephturner_com:
     build: .
+    restart: unless-stopped
     networks: 
       - docklinode
 
