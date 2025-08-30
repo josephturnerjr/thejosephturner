@@ -1,10 +1,8 @@
 FROM bretfisher/jekyll AS build
 
-COPY Gemfile .
+COPY . /site
 
 RUN bundle install --retry 5 --jobs 20
-
-COPY . /site
 
 RUN bundle exec jekyll build
 
